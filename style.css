@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#ffffff;
+}
+.sec{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sec1{
+    height: 118vh;
+    width: 100%;
+    background-image: url("SRC imgs/whales-Grow-Your-Agency.png");
+    background-size:contain;
+    background-position:410px;
+    background-repeat: no-repeat;
+    padding:50px 100px;
+    flex-direction: column;
+    gap: 120px;
+}
+
+.header{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+.logo{
+    border-right: 1px solid black;
+    height: fit-content;
+    width:230px;
+}
+.logo_img{
+    width: 180px;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+.nav a{
+    text-decoration: none;
+    color:black;
+    font-weight: 700;
+}
+
+.lis{
+    position: relative;
+    transition: all 0.5s;
+    padding: 0px 10px;
+}
+
+.lis::before{
+    content: "";
+    position: absolute;
+    background-color: aqua;
+    width: 35%;
+    height:3px;
+    bottom: -10px;
+    transform: scale(0);
+    transform-origin: left;
+    transition: all 0.5s;
+    transform-origin: left;
+
+
+}
+ .lis:hover::before{
+   transform: scale(1);
+   transform-origin: left;
+}
+
+.cont1{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    width: 450px;
+
+}
+.cont1 h1{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cont1 p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.get_startedbtn{
+    width: 250px;
+    height:52px;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, #0084ff, #006eff, #0051ff);
+    color: #ffffff;
+    border: none;
+    margin-top: 60px;
+}
+
+/* Sec 2 starts*/
+
+
+
+/* THe cont for all*/
+
+.cont{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+
+}
+.cont h1{
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cont p{
+    font-size: 19px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.cont h2{
+    font-size:21px;
+}
+
+
+/* sec3 starts*/
+
+.sec3{
+    background-image: url("SRC imgs/University02.png");
+    height:600px;
+    background-size:66%;
+    background-position-y:60px;
+    background-position-x: left;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: right;
+    align-items:flex-start;
+    padding: 20px 100px;
+}
+
+
+/* THe sec4 starts*/
+
+.sec4{
+    background-image: url("SRC imgs/Agency-Life-GYA.png");
+    height:600px;
+    background-size:55%;
+    background-position-y:0px;
+    background-position-x: 620px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: left;
+    align-items:flex-start;
+    padding: 60px 100px;
+}
+
+
+/*Sec 5 Started*/
+
+.sec5{
+    background-image: url("SRC imgs/Falcon.jpg");
+    height:500px;
+    background-size:56%;
+    background-position-y:50px;
+    background-position-x:-50px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+/*footer*/
+
+.footer{
+    background-color: #000309;
+    color: white;
+    height:300px;
+    padding: 50px 100px;
+}
+.navfot{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.navfot a{
+    color: white;
+    text-decoration: none;
+}
+.hline{
+    width: 100%;
+    background-color: #1f232c;
+    height: 2px;
+}
+.list:hover{
+    color:aqua;
+    text-decoration: underline;
+
+}
+.cont_foot{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+

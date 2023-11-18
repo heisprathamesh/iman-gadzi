@@ -1,0 +1,21 @@
+.lis{
+    transition: all 0.5s;
+    position:relative;
+}
+.lis::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: aqua;
+    bottom: -10px;
+    transform: scale(0);
+    transform-origin: left;
+    transition: all 0.5s;
+}
+.lis:hover::before{
+    transform: scale(1);
+    transition: all 0.5s;
+
+
+}
